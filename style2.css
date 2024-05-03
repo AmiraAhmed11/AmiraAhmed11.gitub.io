@@ -1,0 +1,49 @@
+/* style.css */
+
+/* Style for each doa box */
+.doa {
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Background color for each doa box */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack the title and content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Style for doa title */
+.doa h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    
+}
+
+/* Style for doa content */
+.doa p {
+    font-size: 25px; /* Increased font size */
+    font-weight: bold; /* Bold style */
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+/* Style for the container */
+.doas-container {
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url('path/to/your/image.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire container */
+    padding: 20px; /* Add padding to create space around the boxes */
+}
+
+#get-location {
+    background-color: rgba(201, 99, 26, 0.678);
+    color: black;
+    font-size: 20px; /* You can adjust the font size as needed */
+    padding: 10px 20px; /* You can adjust the padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
