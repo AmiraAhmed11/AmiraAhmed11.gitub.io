@@ -31,14 +31,13 @@ require_once 'location_db.php';
         <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style2.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-    $(document).ready(function(){
+        <script>
+        $(document).ready(function(){
         $("#get-location").click(function(){
             getLocation();
         });
-    });
-
-    function getLocation() {
+     });
+     function getLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(saveLocation);
         } else {
@@ -64,7 +63,7 @@ require_once 'location_db.php';
             }
         });
     }
-    </script>
+</script>
 
 
         
