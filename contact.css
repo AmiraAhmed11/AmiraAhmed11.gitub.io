@@ -1,0 +1,75 @@
+body {
+    background-color: #e4d364;
+
+    font-family: Arial, sans-serif; /* Specify the font family */
+}
+.container {
+    max-width: 500px!important;
+    padding: 40px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ss {
+    text-align: center;
+}
+h2 {
+    margin-top: 0;
+    color: #5a5f28!important;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+}
+input[type="submit"] {
+    background-color: #5a500e;
+    color: floralwhite;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+    background-color: #49410d;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #5a500e;
+    color: floralwhite;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover {
+    background-color: #49410d;
+    color: #FFFFFF;
+    cursor: pointer;
+}
