@@ -3,7 +3,7 @@ class Doas_db {
     private $host = "";
     private $username = "root";
     private $password = "";
-    private $database = "ISLAMIC_WEB";
+    private $database = "Doas";
     private $conn;
 
     public function __construct() {
